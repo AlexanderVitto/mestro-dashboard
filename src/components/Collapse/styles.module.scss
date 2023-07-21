@@ -1,0 +1,24 @@
+.collapseContainer{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .accordionContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+        color: #616161;
+        background-color: transparent;
+        border:0 solid transparent;
+    
+        &.active{
+            // background: rgba(0, 158, 246, 0.15);
+            color: #1489EA;
+        }
+    }
+}
+

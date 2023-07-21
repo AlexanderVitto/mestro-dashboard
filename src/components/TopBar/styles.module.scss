@@ -1,0 +1,38 @@
+.topBarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .titleContainer{
+        font-family: 'Poppins';
+        font-size: 22px;
+        font-weight: 700;
+        word-spacing: 2px;
+    }
+
+    .searchContainer{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .searchBox{
+           padding:8px 16px;
+           background: #F5F5F5;
+           border-radius: 50px;
+           border: 1px solid #F5F5F5;
+           
+        }
+
+        .addButton{
+            padding:8px 16px; 
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 16px;
+            background: #1489EA;
+            color: white;
+            border-radius: 10px;
+            border: 1px solid #1489EA;
+        }
+    }
+}

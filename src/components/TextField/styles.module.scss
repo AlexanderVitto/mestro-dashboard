@@ -1,0 +1,35 @@
+.textFieldContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 5px;
+
+    .label{
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 500;
+        color: #404040;
+    }
+
+    .input{
+        padding:0 16px;
+        height: 45px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #404040;
+        border: 1px solid #E0E0E0;
+        border-radius: 10px;
+    }
+
+    .textArea{
+        padding: 16px;
+        height: 90px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        color: #404040;
+        border: 1px solid #E0E0E0;
+        border-radius: 10px;
+    }
+}

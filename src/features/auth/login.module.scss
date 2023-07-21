@@ -1,0 +1,67 @@
+
+.loginContainer{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .formContainer{
+        position: relative;
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .input{
+            padding:0 16px;
+            height: 45px;
+            width: calc(100% - 32px);
+            font-size: 14px;
+            font-weight: 500;
+            color: #404040;
+            border: 1px solid #E0E0E0;
+            border-radius: 10px;
+        }
+        
+        .passwordWrap{
+            position: relative;
+            width: 100%;
+        
+            .input{
+                padding:0 16px;
+                height: 45px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #404040;
+                border: 1px solid #E0E0E0;
+                border-radius: 10px;
+            }
+        
+            .icon{
+                position: absolute;
+                top: 11.5px;
+                right: 0;
+                background-color: transparent;
+                border: none;
+            }
+        }
+
+        .submitButton{
+            padding:10px 0;
+            width: 270px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 14px;
+            background: #1489EA;
+            color: white;
+            border-radius: 10px;
+            border: 1px solid #1489EA;
+        }
+    }
+
+  
+}

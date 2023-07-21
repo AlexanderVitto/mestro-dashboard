@@ -1,0 +1,102 @@
+.itemContainer{
+    display: grid;
+    grid-template-columns:50px 4fr 2fr 120px;
+
+    .hospitalContainer{
+        display: flex;
+        justify-content: stretch;
+
+        .image{
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        .description{
+            padding: 0 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .name{
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 700;
+                text-align: left;
+                
+            }
+
+            .address{
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 600;
+                text-align: left;
+                color: #9E9E9E;
+
+            }
+        }
+    }
+
+    .statusContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .contactContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            .label{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 500;
+                color: #7E8299;
+                text-align: left;
+            }
+
+            .phoneNumber{
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 600;
+                color: #404040;
+                text-align: left;
+                
+            }
+        }
+    }
+
+    .actionContainer{
+        display: flex;
+        gap: 10px;
+
+        .edit{
+            height: 35px;
+            width: 35px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: #FFC700;
+        }
+
+        .delete{
+            height: 35px;
+            width: 35px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: #F1416C;
+        }
+    }
+}
+
+.divider{
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+    background-color: #F3F6F9;
+}
